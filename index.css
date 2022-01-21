@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:"white";
+}
+body{
+    background: black;
+}
+
+.dual-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.time-sets{
+    display: grid;
+    grid-template-columns: 50px 200px 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
